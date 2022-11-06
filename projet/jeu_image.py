@@ -110,54 +110,75 @@ while running:
     if touches["n"]:
         if piece_actuel==0:
             piece_actuel=3
+            deplacement=False
         elif  piece_actuel==3:
             piece_actuel=7
+            deplacement=False
         elif  piece_actuel==7 and cle:
             piece_actuel=10
+            deplacement=False
         elif  piece_actuel==2:
             piece_actuel=6
+            deplacement=False
         elif  piece_actuel==1:
             piece_actuel=4
+            deplacement=False
         elif  piece_actuel==4:
             piece_actuel=8
+            deplacement=False
         elif  piece_actuel==5:
             piece_actuel=9
+            deplacement=False
         else:
             deplacement=True
 
     elif touches["s"]:
         if piece_actuel==3:
             piece_actuel=0
+            deplacement=False
         elif  piece_actuel==7:
             piece_actuel=3
+            deplacement=False
         elif  piece_actuel==10:
             piece_actuel=7
+            deplacement=False
         elif  piece_actuel==6:
             piece_actuel=2
+            deplacement=False
         elif  piece_actuel==4:
             piece_actuel=1
+            deplacement=False
         elif  piece_actuel==8:
             piece_actuel=4
+            deplacement=False
         elif  piece_actuel==9:
             piece_actuel=5
+            deplacement=False
         else:
             deplacement=True
 
     elif touches["e"]:
         if piece_actuel==0:
             piece_actuel=1
+            deplacement=False
         elif  piece_actuel==2:
             piece_actuel=3
+            deplacement=False
         elif  piece_actuel==3:
             piece_actuel=4
+            deplacement=False
         elif  piece_actuel==4:
             piece_actuel=5
+            deplacement=False
         elif  piece_actuel==6:
             piece_actuel=7
+            deplacement=False
         elif  piece_actuel==7:
             piece_actuel=8
+            deplacement=False
         elif  piece_actuel==8:
             piece_actuel=9
+            deplacement=False
         else:
             deplacement=True
 
@@ -166,18 +187,25 @@ while running:
 
         if piece_actuel==1:
             piece_actuel=0
+            deplacement=False
         elif  piece_actuel==3:
             piece_actuel=2
+            deplacement=False
         elif  piece_actuel==4:
             piece_actuel=3
+            deplacement=False
         elif  piece_actuel==5:
             piece_actuel=4
+            deplacement=False
         elif  piece_actuel==7:
             piece_actuel=6
+            deplacement=False
         elif  piece_actuel==8:
             piece_actuel=7
+            deplacement=False
         elif  piece_actuel==9:
             piece_actuel=8
+            deplacement=False
         else:
             deplacement=True
 
